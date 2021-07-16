@@ -1,0 +1,23 @@
+{
+    "name": "laravel/custompassport",
+    "authors": [
+        {
+            "name": "keyurs",
+            "email": "ksolanki756@rku.ac.in"
+        }
+    ],
+    "require": {
+
+        "php": "^7.2|^8.0",
+        "laravel/passport": "^9.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Laravel\\CustomPassport\\": "laravel/custompassport/src/"
+        }
+    },
+    "minimum-stability" : {
+        "dev"
+    }
+
+}
